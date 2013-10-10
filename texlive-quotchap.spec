@@ -1,12 +1,12 @@
-# revision 21082
+# revision 28046
 # category Package
 # catalog-ctan /macros/latex/contrib/quotchap
-# catalog-date 2011-01-16 00:30:55 +0100
+# catalog-date 2012-10-20 22:28:24 +0200
 # catalog-license gpl
-# catalog-version 1.0
+# catalog-version 1.1
 Name:		texlive-quotchap
-Version:	1.0
-Release:	2
+Version:	1.1
+Release:	1
 Summary:	Decorative chapter headings
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/quotchap
@@ -21,9 +21,8 @@ Requires(post):	texlive-kpathsea
 
 %description
 A package for creating decorative chapter headings with
-quotations, a PostScript output device and the psnfss package
-are needed, the color package and a greyscale output device are
-recommended.
+quotations. Uses graphical and coloured output and by default
+needs the "Adobe standard font set" (as supported by psnfss).
 
 %post
     %{_sbindir}/texlive.post
@@ -53,17 +52,3 @@ recommended.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
-
-
-%changelog
-* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 1.0-2
-+ Revision: 755570
-- Rebuild to reduce used resources
-
-* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 1.0-1
-+ Revision: 719425
-- texlive-quotchap
-- texlive-quotchap
-- texlive-quotchap
-- texlive-quotchap
-
