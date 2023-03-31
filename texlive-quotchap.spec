@@ -1,6 +1,6 @@
 Name:		texlive-quotchap
 Version:	56926
-Release:	1
+Release:	2
 Summary:	Decorative chapter headings
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/quotchap
