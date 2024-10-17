@@ -3,7 +3,7 @@ Version:	56926
 Release:	2
 Summary:	Decorative chapter headings
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/quotchap
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/quotchap
 License:	GPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/quotchap.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/quotchap.doc.r%{version}.tar.xz
